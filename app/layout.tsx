@@ -1,3 +1,4 @@
+import Navigaton from "./Navigaton";
 export default function RootLayout({
   children,
 }: {
@@ -8,7 +9,11 @@ export default function RootLayout({
       <head>
         <title>Mohammad</title>
       </head>
-      <body>{children}</body>
+
+      <body>
+        <Navigaton />
+        {children}
+      </body>
     </html>
   );
 }
