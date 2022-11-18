@@ -21,7 +21,9 @@ const Navigaton = () => {
           <Link href="">Contact</Link>
         </li>
       </ul>
-      <div>k</div>
+      <div>Al</div>
+      <h1>fa</h1>
+
       <div className='text-white border px-4 py-2 border-slate-500 rounded-3xl cursor-pointer hover:bg-slate-700 transform duration-700'>Hire Me</div>
     </div>
   );
