@@ -7,7 +7,7 @@ export default function RootLayout({
   return (
     <html>
       <head>
-        <title>Mohammad</title>
+        <title>Mohammad Imran Hossain</title>
       </head>
       
       <body>

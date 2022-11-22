@@ -6,7 +6,9 @@ import Image from "next/image";
 const Pages = () => {
   return (
     <>
-      <div className={`${css.bg} h-[60vh] text-white backdrop-blur-sm px-5 lg:px-16`}>
+      <div
+        className={`${css.bg} h-[60vh] text-white backdrop-blur-sm px-5 lg:px-16`}
+      >
         <div className="pt-[30%] md:pt-[10%]">
           <h1 className="tex-xl font-bold lg:text-3xl  ">Hi, My Name is </h1>
           <h1 className="text-[3rem] lg:text-[4rem] font-bold leading-normal mb-5">
@@ -27,7 +29,7 @@ const Pages = () => {
           <div className="image-container flex justify-center mb-5">
             <Image
               className="rounded-lg"
-              src="/../public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg"
+              src="/../public/about.jpg"
               alt="BG"
               width={400}
               height={400}
