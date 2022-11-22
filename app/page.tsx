@@ -7,7 +7,7 @@ const Pages = () => {
   return (
     <>
       <div className={`${css.bg} text-white backdrop-blur-sm px-5 lg:px-16`}>
-        <div className="pt-[20%]">
+        <div className="pt-[10%]">
           <h1 className="tex-xl font-bold lg:text-3xl  ">Hi, My Name is </h1>
           <h1 className="text-[3rem] lg:text-[4rem] font-bold leading-normal mb-5">
             Imran Hossain
@@ -23,7 +23,7 @@ const Pages = () => {
           <p>who I am</p>
         </div>
 
-        <div className="px-5 lg:px-16">
+        <div className="px-5 lg:px-16 grid grid-cols-1 md:grid-cols-2">
           <div className="image-container flex justify-center mb-5">
             <Image
               className="rounded-lg"
@@ -34,18 +34,24 @@ const Pages = () => {
               priority={true}
             />
           </div>
-          <div className="text-container text-left">
-            <h1 className="text-xl font-bold pb-2">
-              I am Mohammad Imran Hossain.
-            </h1>
-            <p className="text-lg mb-4 ">
+          <div className="text-container text-left flex items-center">
+            <div>
               {" "}
-              I am a Student of Daffodil International University. I am a
-              Youtube Content Creator. My Home Town is Rangpur.
-            </p>
-            <button className="bg-red-500 text-white px-3 py-1 rounded-lg ">
-              Dowonload CV
-            </button>
+              <h1 className="text-xl font-bold pb-2">
+                I am Mohammad Imran Hossain.
+              </h1>
+              <p className="text-lg md:text-xl mb-4 ">
+                {" "}
+                I am a Student of Daffodil International University. I am a
+                Youtube Content Creator. My Home Town is Rangpur.I have a
+                passion for singing. A lot of honours and awards have been
+                bagged by me in singing competitions. Also, I have a passion for
+                painting and loves to play with colours using my imagination.
+              </p>
+              <button className="bg-red-500 text-white px-3 py-1 rounded-lg ">
+                Dowonload CV
+              </button>
+            </div>
           </div>
         </div>
       </div>
