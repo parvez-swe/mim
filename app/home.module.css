@@ -1,0 +1,6 @@
+.bg {
+  background-image: url("../public/imran-vai/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}

@@ -9,7 +9,7 @@ export default function RootLayout({
       <head>
         <title>Mohammad</title>
       </head>
-
+      
       <body>
         <Navigaton />
         {children}
