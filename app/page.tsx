@@ -29,7 +29,7 @@ const Pages = () => {
           <div className="image-container flex justify-center mb-5">
             <Image
               className="rounded-lg"
-              src="/../public/about.jpg"
+              src="/about.jpg"
               alt="BG"
               width={400}
               height={400}
