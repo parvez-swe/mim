@@ -17,24 +17,32 @@ const Pages = () => {
           </p>
         </div>
       </div>
-      <div className="about-container text-center">
-        <div>
-          <h1 className="about">About me</h1>
+      <div className="about-container text-center pt-16">
+        <div className="py-10">
+          <h1 className="about text-2xl font-bold">About me</h1>
           <p>who I am</p>
         </div>
-        <div>
-          <div className="image-container text-center">
+
+        <div className="px-16">
+          <div className="image-container flex justify-center mb-5">
             <Image
-              src={BG}
+              className="rounded-lg"
+              src="/../public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg"
               alt="BG"
-              width={200}
-              height={200}
+              width={400}
+              height={400}
               priority={true}
             />
-
           </div>
           <div className="text-container">
-
+            <h1 className="text-xl font-bold pb-2">I am Mohammad Imran Hossain.</h1>
+            <p>{" "}
+              I am a Student of Daffodil International University. I am a
+              Youtube Content Creator. My Home Town is Rangpur.
+            </p>
+            <button className="bg-red-500 text-white">
+              Dowonload CV
+            </button>
           </div>
         </div>
       </div>
