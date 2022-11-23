@@ -23,9 +23,9 @@ const Pages = () => {
             I am student of Daffodil Internation al University.
           </p>
           <div className="text-3xl mt-5 md:mt-10 flex">
-             <BsYoutube className="mx-2" />
-             <BsFacebook className="mx-2" />
-              <BsFillTelephoneForwardFill className="mx-2" />
+             <BsYoutube className="mx-2 hover:scale-110 transform duration-500" />
+             <BsFacebook className="mx-2 hover:scale-110 transform duration-500" />
+              <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500" />
           </div>
          
         </div>
