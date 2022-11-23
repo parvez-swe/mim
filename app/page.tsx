@@ -2,12 +2,13 @@ import React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
+import { BsYoutube } from "react-icons/bs";
 import Image from "next/image";
 const Pages = () => {
   return (
     <>
       <div
-        className={`${css.bg} h-[60vh] text-white backdrop-blur-sm px-5 lg:px-16`}
+        className={`${css.bg} h-[70vh] text-white backdrop-blur-sm px-5 lg:px-16`}
       >
         <div className="pt-[30%] md:pt-[10%]">
           <h1 className="tex-xl font-bold lg:text-3xl  ">Hi, My Name is </h1>
@@ -17,6 +18,10 @@ const Pages = () => {
           <p className="text-xl lg:text-3xl ">
             I am student of Daffodil Internation al University.
           </p>
+          <div>
+             <BsYoutube />
+          </div>
+         
         </div>
       </div>
       <div className="about-container text-center pt-16 mb-10">
