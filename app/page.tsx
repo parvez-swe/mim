@@ -2,7 +2,11 @@ import React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
-import { BsYoutube } from "react-icons/bs";
+import {
+  BsYoutube,
+  BsFacebook,
+  BsFillTelephoneForwardFill,
+} from "react-icons/bs";
 import Image from "next/image";
 const Pages = () => {
   return (
@@ -18,8 +22,10 @@ const Pages = () => {
           <p className="text-xl lg:text-3xl ">
             I am student of Daffodil Internation al University.
           </p>
-          <div>
-             <BsYoutube />
+          <div className="text-3xl mt-5 md:mt-10 flex">
+             <BsYoutube className="mx-2" />
+             <BsFacebook className="mx-2" />
+              <BsFillTelephoneForwardFill className="mx-2" />
           </div>
          
         </div>
