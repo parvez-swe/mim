@@ -2,18 +2,18 @@ import React from 'react'
 import Link from 'next/link';
 const Navigaton = () => {
   return (
-    <div className=" bg-slate-800 h-16 flex justify-between items-center px-5 lg:px-16">
+    <div className=" bg-slate-800 h-16 flex justify-between items-center px-5 lg:px-16  sticky top-0">
       <h1 className="text-white text-3xl font-bold">Imran</h1>
       <div className="list-group">
         <ul className=" flex text-slate-300 text-lg lg:text-xl">
           <li className="mx-2  cursor-pointer hover:text-white transform duration-500 ">
-            <Link href="">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="mx-2  cursor-pointer hover:text-white transform duration-500 ">
-            <Link href="">Blog</Link>
+            <Link href="/blog">Blog</Link>
           </li>
           <li className="mx-2  cursor-pointer hover:text-white transform duration-500 ">
-            <Link href="">Contact</Link>
+            <Link href="contact">Contact</Link>
           </li>
         </ul>
       </div>

@@ -1,4 +1,9 @@
 import Navigaton from "./Navigaton";
+import { Roboto } from "@next/font/google";
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
 export default function RootLayout({
   children,
 }: {
@@ -9,8 +14,8 @@ export default function RootLayout({
       <head>
         <title>Mohammad Imran Hossain</title>
       </head>
-      
-      <body>
+
+      <body className={roboto.className}>
         <Navigaton />
         {children}
       </body>

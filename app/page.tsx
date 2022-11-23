@@ -20,7 +20,7 @@ const Pages = () => {
           <h1 className="text-[3rem] lg:text-[4rem] font-bold leading-normal mb-5">
             Mohammad Imran Hossain
           </h1>
-          <p className="text-xl lg:text-3xl ">
+          <p className="text-sm md:xl lg:text-3xl ">
             I am student of Daffodil Internation al University.
           </p>
           <div className="text-3xl mt-5 md:mt-10 flex">
