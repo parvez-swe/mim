@@ -23,11 +23,10 @@ const Pages = () => {
             I am student of Daffodil Internation al University.
           </p>
           <div className="text-3xl mt-5 md:mt-10 flex">
-             <BsYoutube className="mx-2 hover:scale-110 transform duration-500" />
-             <BsFacebook className="mx-2 hover:scale-110 transform duration-500" />
-              <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500" />
+            <BsYoutube className="mx-2 hover:scale-110 transform duration-500 " />
+            <BsFacebook className="mx-2 hover:scale-110 transform duration-500 " />
+            <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500 " />
           </div>
-         
         </div>
       </div>
       <div className="about-container text-center pt-16 mb-10">
