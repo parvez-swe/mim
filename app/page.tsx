@@ -1,4 +1,4 @@
-import React from "react";
+Limport React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
@@ -8,6 +8,7 @@ import {
   BsFillTelephoneForwardFill,
 } from "react-icons/bs";
 import Image from "next/image";
+import Link from "next/link";
 const Pages = () => {
   return (
     <>
@@ -23,10 +24,15 @@ const Pages = () => {
             I am student of Daffodil Internation al University.
           </p>
           <div className="text-3xl mt-5 md:mt-10 flex">
-            <BsYoutube className="mx-2 hover:scale-110 transform duration-500 " />
+            <Link href="https://www.youtube.com/@user-gw7zj2kv1p">
+              <BsYoutube className="mx-2 hover:scale-110 transform duration-500 " />
+            </Link>
+            <Link href="https://www.youtube.com/user-gw7zj2">
             <BsFacebook className="mx-2 hover:scale-110 transform duration-500 " />
+            </Link>
+            <Link href=" ">
             <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500 " />
-          </div>
+         </Link> </div>
         </div>
       </div>
       <div className="about-container text-center pt-16 mb-10">
