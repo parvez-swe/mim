@@ -30,7 +30,7 @@ const Pages = () => {
             <Link href="https://www.facebook.com/mdimran.king.395">
               <BsFacebook className="mx-2 hover:scale-110 transform duration-500 " />
             </Link>
-            <Link href="tel:123-456-7890p123">
+            <Link href="tel:01314282567">
               <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500 " />
             </Link>{" "}
           </div>
