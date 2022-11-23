@@ -1,4 +1,4 @@
-Limport React from "react";
+import React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
@@ -27,12 +27,13 @@ const Pages = () => {
             <Link href="https://www.youtube.com/@user-gw7zj2kv1p">
               <BsYoutube className="mx-2 hover:scale-110 transform duration-500 " />
             </Link>
-            <Link href="https://www.youtube.com/user-gw7zj2">
-            <BsFacebook className="mx-2 hover:scale-110 transform duration-500 " />
+            <Link href="https://www.facebook.com/mdimran.king.395">
+              <BsFacebook className="mx-2 hover:scale-110 transform duration-500 " />
             </Link>
-            <Link href=" ">
-            <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500 " />
-         </Link> </div>
+            <Link href="tel:123-456-7890p123">
+              <BsFillTelephoneForwardFill className="mx-2 hover:scale-110 transform duration-500 " />
+            </Link>{" "}
+          </div>
         </div>
       </div>
       <div className="about-container text-center pt-16 mb-10">
