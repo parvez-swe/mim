@@ -77,7 +77,7 @@ const Pages = () => {
         </div>
       </div>
       {/* gellary */}
-      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">Image Gellary</h1>
+      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">Image Gallary</h1>
       <Gell />
     </>
   );

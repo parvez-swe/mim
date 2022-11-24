@@ -20,7 +20,7 @@ export default function RootLayout({
         {children}
         <div className="flex footer bg-slate-800 h-16 text-white text-center items-center justify-center">
           <span>
-            Creator of the web:{" "}
+            Develope and Design :{" "}
             <a href="https://web.facebook.com/parvez.musharaf.355">
               Md Parvez Musharaf
             </a>{" "}
