@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
-import Gell from  './components/Gell';
+import Gell from "./components/Gell";
+import Academy from "./components/Academy";
 import {
   BsYoutube,
   BsFacebook,
@@ -68,17 +69,29 @@ const Pages = () => {
                 bagged by me in singing competitions. Also, I have a passion for
                 painting and loves to play with colours using my imagination.
               </p>
-              <a href='/imran-vai/cv.pdf' download className="bg-red-500 text-white px-3 py-3 rounded-lg">
+              <a
+                href="/imran-vai/cv.pdf"
+                download
+                className="bg-red-500 text-white px-3 py-3 rounded-lg"
+              >
                 Dowonload CV
               </a>
             </div>
-          
           </div>
         </div>
       </div>
       {/* gellary */}
-      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">Image Gallary</h1>
+      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">
+        Image Gallary
+      </h1>
       <Gell />
+      {/* my academy */}
+      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">
+        <Link href="https://www.youtube.com/@imranacademy3368" className="">
+          My Academy <BsYoutube className="inline" />
+        </Link>
+      </h1>
+      <Academy />
     </>
   );
 };
