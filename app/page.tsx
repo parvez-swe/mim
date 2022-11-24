@@ -60,7 +60,7 @@ const Pages = () => {
               <h1 className="text-xl font-bold pb-2">
                 I am Mohammad Imran Hossain.
               </h1>
-              <p className="text-lg md:text-xl mb-10 ">
+              <p className="text-sm md:text-lg lg:text-xl mb-10 ">
                 {" "}
                 I am a Student of Daffodil International University. I am a
                 Youtube Content Creator. My Home Town is Rangpur.I have a
