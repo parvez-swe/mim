@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/globals.css";
 import css from "./home.module.css";
 import BG from "/public/imran-vai/310309226_1344791275928131_78698796048686728_n.jpg";
+import Gell from  './components/Gell';
 import {
   BsYoutube,
   BsFacebook,
@@ -59,7 +60,7 @@ const Pages = () => {
               <h1 className="text-xl font-bold pb-2">
                 I am Mohammad Imran Hossain.
               </h1>
-              <p className="text-lg md:text-xl mb-4 ">
+              <p className="text-lg md:text-xl mb-10 ">
                 {" "}
                 I am a Student of Daffodil International University. I am a
                 Youtube Content Creator. My Home Town is Rangpur.I have a
@@ -67,13 +68,17 @@ const Pages = () => {
                 bagged by me in singing competitions. Also, I have a passion for
                 painting and loves to play with colours using my imagination.
               </p>
-              <button className="bg-red-500 text-white px-3 py-1 rounded-lg ">
+              <a href='/imran-vai/cv.pdf' download className="bg-red-500 text-white px-3 py-3 rounded-lg">
                 Dowonload CV
-              </button>
+              </a>
             </div>
+          
           </div>
         </div>
       </div>
+      {/* gellary */}
+      <h1 className="text-xl text-center font-bold py-10 text-red-500 cursor-pointer">Image Gellary</h1>
+      <Gell />
     </>
   );
 };

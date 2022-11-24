@@ -18,6 +18,15 @@ export default function RootLayout({
       <body className={roboto.className}>
         <Navigaton />
         {children}
+        <div className="flex footer bg-slate-800 h-16 text-white text-center items-center justify-center">
+          <span>
+            Creator of the web:{" "}
+            <a href="https://web.facebook.com/parvez.musharaf.355">
+              Md Parvez Musharaf
+            </a>{" "}
+            | <span className="far fa-copyright"></span> 2022 All rights reserved.
+          </span>
+        </div>
       </body>
     </html>
   );
